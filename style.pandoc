@@ -1,0 +1,41 @@
+\usetheme{Hannover}
+\usecolortheme{fly}
+% \setbeamertemplate{headline}{\hfill\includegraphics[width=1.2cm]{logo.png}\hspace{0.3cm}\vspace{-1.4cm}}
+
+\usepackage[labelformat=empty]{caption}
+
+\hypersetup{%
+  colorlinks=true,
+  linkcolor=white,
+  urlcolor=lime,
+}
+
+\makeatletter
+
+\makeatother
+\font\nullfont=cmr10
+
+\setmainfont{DejaVu Serif}
+\setmathfont{TeX Gyre DejaVu Math}
+
+\setbeamertemplate{itemize items}{>>}
+\setbeamertemplate{itemize subitem}[square]
+
+\setbeamercolor{normal text}{fg=white,bg=black!90}
+\setbeamercolor{structure}{fg=white}
+
+\setbeamercolor{alerted text}{fg=red!85!black}
+
+\setbeamercolor{item projected}{use=item,fg=black,bg=item.fg!35}
+
+\setbeamercolor*{palette primary}{use=structure,fg=structure.fg}
+\setbeamercolor*{palette secondary}{use=structure,fg=structure.fg!95!black}
+\setbeamercolor*{palette tertiary}{use=structure,fg=structure.fg!90!black}
+\setbeamercolor*{palette quaternary}{use=structure,fg=structure.fg!95!black,bg=black!80}
+
+\setbeamercolor*{framesubtitle}{fg=white}
+
+\setbeamercolor*{block title}{parent=structure,bg=black!60}
+\setbeamercolor*{block body}{fg=black,bg=black!10}
+\setbeamercolor*{block title alerted}{parent=alerted text,bg=black!15}
+\setbeamercolor*{block title example}{parent=example text,bg=black!15}
